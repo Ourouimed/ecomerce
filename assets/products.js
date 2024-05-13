@@ -1,4 +1,4 @@
-let productUrl = "file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/ecom/products/product-1/product.html"
+let productUrl = "https://ourouimed.github.io/ecomerce/products/product-1/"
 // club jersey 2023/24
 let prod1 = {
   "products" : [
