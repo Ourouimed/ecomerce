@@ -6,7 +6,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "20$",
       "img" : src + "media/products/EURO24/prod1.webp",
-      "url" : "product.html",
+      "url" : src + "products/product-1",
       "promo" : -5
       },
       { 
@@ -14,7 +14,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "17$",
       "img" : src + "media/products/EURO24/prod2.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : ""
       },
       { 
@@ -22,7 +22,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "10$",
       "img" : src + "media/products/EURO24/prod3.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : -30
       },
       { 
@@ -30,7 +30,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "15$",
       "img" : src + "media/products/EURO24/prod4.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : -24
       },
       { 
@@ -38,7 +38,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "15$",
       "img" : src + "media/products/EURO24/prod5.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : -19
       }, 
       { 
@@ -46,7 +46,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "15$",
       "img" : src + "media/products/EURO24/prod6.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : -15
       },
       { 
@@ -54,7 +54,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "15$",
       "img" : src + "media/products/EURO24/prod7.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : -20
       },
       { 
@@ -62,7 +62,7 @@ let cat1 = {
       "category" : "football" , 
       "price" : "15$",
       "img" : src + "media/products/EURO24/prod8.webp" ,
-      "url" : "product.html",
+      "url" : "products/product-1",
       "promo" : false
       }
   ]
