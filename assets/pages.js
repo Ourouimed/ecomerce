@@ -2,7 +2,7 @@ let header = $("header");
 header.append(`
           <div class="top-section">
              <ul>
-                     <li><a href="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/home.html">Home</a</li>
+                     <li><a href="https://ourouimed.github.io/ecomerce/">Home</a</li>
                      <li><a href="">Privacy</a</li>
                      <li><a href="">Shiping</a</li>
                      <li><a href="">About us</a></li>
@@ -26,7 +26,7 @@ header.append(`
 
           </div>
           <div class="bot-section">
-            <div class="logo"><a href="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/home.html">Med<span>Shop</span></a></div>
+            <div class="logo"><a href="https://ourouimed.github.io/ecomerce/">Med<span>Shop</span></a></div>
             <ul class="navigation">
                 <li><a href='home.html'>Home</a></li>
                 <li><a href=''>News</a></li>
@@ -37,7 +37,7 @@ header.append(`
             <ul class="nav-btns">
                 <a><i class="ri-user-3-line"></i></a>
                 <a><i class="ri-search-2-line"></i></a>
-                <a class="cart" href="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/cart/cart.html"><i class="ri-shopping-cart-line"></i></a>
+                <a class="cart" href="https://ourouimed.github.io/ecomerce/cart/"><i class="ri-shopping-cart-line"></i></a>
             </ul>
           </div>`);
 let footer = $("footer")
@@ -53,10 +53,10 @@ footer.append(`
                                         <p>position et la mise en page avant impressist le faux texte standard de l'imprimerie depuis les années 1500, quand un</p>
                                 </div>
                                 <ul class="pay-methodes">
-                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/visa.png"</li>
-                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/mscard.png"</li>
-                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/applePay.png"</li>
-                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/cmi.png"</li>
+                                        <li><img src="https://ourouimed.github.io/ecomerce/media/visa.png"</li>
+                                        <li><img src="https://ourouimed.github.io/ecomerce/media/mscard.png"</li>
+                                        <li><img src="https://ourouimed.github.io/ecomerce/media/applePay.png"</li>
+                                        <li><img src="https://ourouimed.github.io/ecomerce/media/cmi.png"</li>
                                 </ul>
                         </div>
                         <div class="widget">
