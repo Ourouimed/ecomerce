@@ -28,7 +28,7 @@ header.append(`
           <div class="bot-section">
             <div class="logo"><a href="https://ourouimed.github.io/ecomerce/">Med<span>Shop</span></a></div>
             <ul class="navigation">
-                <li><a href='home.html'>Home</a></li>
+                <li><a href='https://ourouimed.github.io/ecomerce/'>Home</a></li>
                 <li><a href=''>News</a></li>
                 <li><a href=''>Categories</a></li>
                 <li><a href=''>Services</a></li>
