@@ -1,4 +1,4 @@
-let src = "file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/"
+let src = "https://ourouimed.github.io/ecomerce/"
 let cat1 = {
   "products" : [
       {
