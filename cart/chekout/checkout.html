@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Med Shop - Payment Details</title>
+        <meta charset='UTF-8'/>
+        <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+        <link href="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/assets/style.css" rel='stylesheet'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    </head>
+    <body>
+        <header></header>
+        <section id="chekhout-pay">
+            <form>
+            <div class="address">
+                <ul id='site-navs'>
+                    <li><a href="home.html">Home</a></li>
+                    <li>Payment detaills</li>
+                </ul>
+                <h3>Billing Adress</h3>
+                
+                <div class="input-double">
+                    <div class="input-grp">
+                        <h4>First Name<span>*</span></h4>
+                        <input type="text" placeholder="Marcos" required/>
+                    </div>
+                    <div class="input-grp">
+                        <h4>Last Name<span>*</span></h4>
+                        <input type="text" placeholder="Hernandez" required/>
+                    </div>
+                </div>
+
+                <div class="input-double">
+                    <div class="input-grp">
+                        <h4>Email<span>*</span></h4>
+                        <input type="email" placeholder="example@email.com" required/>
+                    </div>
+                    <div class="input-grp">
+                        <h4>Phone number<span>*</span></h4>
+                        <input type="phone" placeholder="+2126XXXXXXXX" required/>
+                    </div>
+                </div>
+
+                <div class="input-grp">
+                        <h4>Country<span>*</span></h4>
+                        <select id="country">
+                            <option>--Select country--</option>
+                            <option aria-required>Morocco</option>
+                            <option>Spain</option>
+                            <option>USA</option>
+                        </select>
+                </div>
+                <div class="input-grp">
+                        <h4>City/Town<span>*</span></h4>
+                        <input type="text" placeholder="Your City/Town .." required/>
+                </div>
+                <div class="input-double">
+                   <div class="input-grp">
+                        <h4>Street<span>*</span></h4>
+                        <input type="text" placeholder="Your Street name Here.." required/>
+                    </div>
+                   <div class="input-grp">
+                        <h4>Zip Code</h4>
+                        <input type="text" placeholder="ex : 12000"/>
+                    </div>
+                </div>
+
+                     <div class="input-grp">
+                        <h4>Additional information</h4>
+                        <textarea placeholder="Any informations ?.." aria-setsize="disable"></textarea>
+                    </div>
+                
+                
+            </div>
+            <div class="payment-gatway">
+                    <div class="payment">
+                        <h3>Payment Details</h3>
+                        <div class="summary-total">
+                                <span class="total-text">Total</span>
+                                <span class="total-price">223.7004$</span>
+                        </div>
+                        <button class="paypal"><i class="ri-paypal-fill"></i>Paypal</button>
+                        <button class="Google-pay"><i class="ri-google-line"></i>Pay</button>
+                        <div class="use-card"><span>Or use Credit card</span></div>
+                        <ul class="pay-methodes">
+                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/visa.png"</li>
+                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/mscard.png"</li>
+                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/AMexp.png"</li>
+                                        <li><img src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/media/cmi.png"</li>
+                        </ul>   
+                                <div class="input-grp">
+                                    <h4>Name on Card</h4>
+                                    <input type="text" placeholder="John Doe..">
+                                </div>
+                                <div class="input-grp">
+                                    <h4>credit card number</h4>
+                                    <input type="text" autocomplete="cc-number" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
+                                </div>
+                                <div class="input-double">
+                                    <div class="input-grp">
+                                        <h4>Expire date</h4>
+                                        <input type="month" id="start" min="2024-06" value="2024-06" />
+                                    </div>
+                                    <div class="input-grp">
+                                        <h4>CVV</h4>
+                                        <input type="text" autocomplete="cc-number" maxlength="3" placeholder="123">
+                                    </div>
+                               </div>
+                                <button type="submit">Pay now</button>
+                </div>
+            </div>
+            </form>
+        </section>
+        <footer></footer>
+                <script type="text/javascript" src="file:///C:/Users/Utilisateur/Desktop/medamine/Programing%20work/Web%20project/Ecom/assets/pages.js"></script>
+    </body>
+</html>
