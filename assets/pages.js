@@ -69,7 +69,7 @@ footer.append(`
                                 </ul>
                         </div>
                         <div class="widget">
-                                <h3>Links</h3>
+                                <h3>Links </h3>
                                 <ul>
                                         <li><a href="">link number1 is thits</a></li>
                                         <li><a href="">link number1 is thits</a></li>
